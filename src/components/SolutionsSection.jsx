@@ -5,38 +5,38 @@ import useScrollReveal from '../hooks/useScrollReveal';
 const services = [
     {
         id: 1,
-        title: "Formación de Instructores (Train the Trainer)",
-        description: "No basta con saber hacer el trabajo, hay que saber enseñarlo. Dotamos a sus expertos técnicos de herramientas andragógicas probadas para que transmitan sus conocimientos con claridad, estructura y efectividad, reduciendo la curva de aprendizaje de los nuevos operarios.",
+        title: "Formación y Mentoría de Cuadros Docentes",
+        description: "Con más de 40 años formando maestros y directivos, dotamos a sus equipos de herramientas pedagógicas probadas. Desde la Maestría en Ciencias de la Educación hasta la experiencia en planta, diseñamos programas que transforman expertos técnicos en instructores efectivos.",
         icon: <BrainCircuit className="h-6 w-6 text-white" />,
         image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1696&q=80",
         bullets: [
-            'Técnicas de enseñanza para adultos (Andragogía)',
-            'Diseño de sesiones de 4 y 8 horas',
-            'Evaluación de transferencia al puesto'
+            'Metodología probada en 40+ años de formación docente',
+            'Diseño de programas con rigor universitario',
+            'Evaluación del desempeño y transferencia al puesto'
         ]
     },
     {
         id: 2,
-        title: "Diagnóstico Psicopedagógico Organizacional",
-        description: "Analizamos las brechas de aprendizaje en su organización desde una perspectiva clínica y laboral. Identificamos si el problema es de capacitación, de actitud o de proceso, evitando que gaste presupuesto en cursos que no resuelven la raíz del problema.",
+        title: "Diagnóstico e Inspección Metodológica",
+        description: "Con experiencia liderando 72 auditorías pedagógicas anuales y supervisando 10 centros educativos, realizamos un diagnóstico integral que identifica las verdaderas brechas de aprendizaje — sean de capacitación, actitud o proceso — antes de invertir un solo peso.",
         icon: <Lightbulb className="h-6 w-6 text-white" />,
         image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1760&q=80",
         bullets: [
-            'Mapeo de brechas de competencias',
-            'Entrevistas a mandos medios y operarios',
-            'Plan de acción con métricas claras'
+            'Metodología de inspección probada en 10+ centros educativos',
+            '72 auditorías pedagógicas anuales de referencia',
+            'Plan de mejora con indicadores medibles (hasta 70% de mejora)'
         ]
     },
     {
         id: 3,
-        title: "Certificación y Constancias DC-3",
-        description: "Emisión de constancias con plena validez oficial ante la STPS. Como Agente Capacitador Externo registrado, garantizamos que su empresa cumpla rigurosamente con la normativa legal, evitando multas y asegurando la calidad de la formación.",
+        title: "Gestión Estratégica y Mejora Continua",
+        description: "Desde la dirección de instituciones educativas hasta la optimización de procesos académicos, diseñamos e implementamos programas de mejora continua que elevan la organización docente y la calidad operativa de forma sostenible.",
         icon: <FileCheck className="h-6 w-6 text-white" />,
         image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1711&q=80",
         bullets: [
-            'Registro válido ante la STPS',
-            'Emisión inmediata de constancias DC-3',
-            'Soporte en auditorías laborales'
+            'Estandarización de procesos curriculares',
+            'Gestión de presupuestos y recursos operativos',
+            'Evaluación institucional y superación profesional'
         ]
     }
 ];

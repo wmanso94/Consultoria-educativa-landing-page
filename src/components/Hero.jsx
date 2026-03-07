@@ -42,17 +42,17 @@ export default function Hero() {
                     <div className="space-y-8">
                         <div className={`inline-flex items-center space-x-2 bg-accent-500/10 border border-accent-500/20 rounded-full px-4 py-1.5 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
                             <CheckCircle size={16} className="text-accent-400" />
-                            <span className="text-accent-300 text-sm font-medium tracking-wide">Especialista en Andragogía Industrial</span>
+                            <span className="text-accent-300 text-sm font-medium tracking-wide">Directivo Educativo | Mtro. en Ciencias de la Educación</span>
                         </div>
 
                         <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] font-display transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
                             Transforme su{' '}
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-500">Conocimiento Técnico</span>{' '}
-                            en Resultados Operativos
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-500">Calidad Educativa</span>{' '}
+                            en Resultados Comprobables
                         </h1>
 
                         <p className={`text-lg md:text-xl text-slate-300/90 max-w-xl leading-relaxed transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                            Formación de Instructores Internos con la autoridad de 40 años de respaldo pedagógico y maestría en educación.
+                            Estrategia educativa, formación de cuadros docentes y optimización de procesos académicos con 40+ años de liderazgo institucional y Maestría en Ciencias de la Educación.
                         </p>
 
                         <div className={`flex flex-col sm:flex-row gap-4 pt-2 transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
@@ -73,11 +73,8 @@ export default function Hero() {
 
                         <div className={`pt-8 border-t border-white/10 flex items-center gap-8 sm:gap-12 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
                             <StatCounter end={40} suffix="+" label="Años de Experiencia" />
-                            <div className="text-center sm:text-left">
-                                <p className="text-3xl md:text-4xl font-bold text-white font-display">DC-3</p>
-                                <p className="text-slate-400 text-sm mt-1">Registro STPS</p>
-                            </div>
-                            <StatCounter end={100} suffix="%" label="Deducible" />
+                            <StatCounter end={60} suffix="+" label="Colaboradores Liderados" />
+                            <StatCounter end={70} suffix="%" label="Mejora en Eficiencia" />
                         </div>
                     </div>
 

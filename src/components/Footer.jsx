@@ -15,16 +15,16 @@ export default function Footer() {
                             <span className="text-xl font-bold text-white tracking-tight">José Ramón Manso Toledo</span>
                         </div>
                         <p className="max-w-sm text-sm leading-relaxed">
-                            Consultoría especializada en educación y formación industrial. Transformando el capital humano en Aguascalientes desde hace más de 40 años.
+                            Directivo y estratega educativo con más de 40 años de trayectoria. Maestro en Ciencias de la Educación. Transformando el capital humano desde Cuba hasta Aguascalientes.
                         </p>
                     </div>
 
                     <div>
                         <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Servicios</h4>
                         <ul className="space-y-3 text-sm">
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Formación de Instructores</a></li>
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Diagnóstico Organizacional</a></li>
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Certificación DC-3</a></li>
+                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Formación de Cuadros Docentes</a></li>
+                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Diagnóstico e Inspección</a></li>
+                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Gestión Estratégica</a></li>
                         </ul>
                     </div>
 
@@ -36,15 +36,15 @@ export default function Footer() {
                                 Aguascalientes, Ags. México
                             </li>
                             <li>
-                                <a href="mailto:contacto@joseramonmanso.com" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
+                                <a href="mailto:jtoledo2w@gmail.com" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
                                     <Mail className="w-4 h-4 text-slate-500 flex-shrink-0" />
-                                    contacto@joseramonmanso.com
+                                    jtoledo2w@gmail.com
                                 </a>
                             </li>
                             <li>
-                                <a href="tel:+524491234567" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
+                                <a href="tel:+529987627240" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
                                     <Phone className="w-4 h-4 text-slate-500 flex-shrink-0" />
-                                    +52 (449) 123 4567
+                                    +52 (998) 762 7240
                                 </a>
                             </li>
                         </ul>
