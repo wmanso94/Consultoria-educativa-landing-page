@@ -83,12 +83,12 @@ export default function Hero() {
                         <div className="relative">
                             {/* Main card */}
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/30 border border-white/10 bg-slate-800">
-                                <div className="aspect-[4/5] relative overflow-hidden group">
+                                <div className="aspect-[3/4] relative overflow-hidden group">
                                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/30 to-transparent z-10"></div>
                                     <img
-                                        src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1632&q=80"
-                                        alt="Consultoría Profesional en Educación Industrial"
-                                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                        src="/jose-ramon-manso.jpg"
+                                        alt="Mtro. José Ramón Manso Toledo — Directivo Educativo"
+                                        className="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                                     />
                                     {/* Bottom info overlay */}
                                     <div className="absolute bottom-0 left-0 right-0 p-6 z-20">

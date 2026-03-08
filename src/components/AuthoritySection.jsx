@@ -165,8 +165,8 @@ export default function AuthoritySection() {
                                 Mi trayectoria une el liderazgo institucional con la pedagogía de campo. No busco solo capacitar — busco transformar la cultura docente y operativa de su organización.
                             </p>
                             <div className="flex items-center">
-                                <div className="w-12 h-12 bg-gradient-to-br from-accent-400 to-accent-600 rounded-full mr-4 flex items-center justify-center font-bold text-white shadow-lg shadow-accent-500/20">
-                                    JR
+                                <div className="w-14 h-14 rounded-full mr-4 overflow-hidden border-2 border-accent-400 shadow-lg shadow-accent-500/20">
+                                    <img src="/jose-ramon-manso.jpg" alt="Mtro. José Ramón Manso Toledo" className="w-full h-full object-cover object-top" />
                                 </div>
                                 <div>
                                     <p className="font-bold text-slate-900">Mtro. José Ramón Manso Toledo</p>
