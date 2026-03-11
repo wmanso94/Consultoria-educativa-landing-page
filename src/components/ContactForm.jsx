@@ -32,16 +32,21 @@ export default function ContactForm() {
     setStatus('sending');
 
     try {
-      const response = await fetch('https://formspree.io/f/xyzgolkb', {
+      const response = await fetch('https://formsubmit.co/ajax/jtoledo2w@gmail.com', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
         body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          company: formData.company,
-          service: formData.service,
-          message: formData.message,
+          _subject: `Nuevo Diagnóstico: ${formData.name} — ${formData.service}`,
+          _template: 'table',
+          Nombre: formData.name,
+          Email: formData.email,
+          Teléfono: formData.phone || 'No proporcionado',
+          'Empresa / Institución': formData.company || 'No proporcionada',
+          'Servicio de Interés': formData.service,
+          Mensaje: formData.message || 'Sin mensaje adicional',
         }),
       });
 
