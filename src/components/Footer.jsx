@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BookOpen, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Footer() {
@@ -22,9 +23,9 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Servicios</h4>
                         <ul className="space-y-3 text-sm">
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Formación de Cuadros Docentes</a></li>
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Diagnóstico e Inspección</a></li>
-                            <li><a href="#servicios" className="hover:text-accent-400 transition-colors">Gestión Estratégica</a></li>
+                            <li><Link to="/servicios" className="hover:text-accent-400 transition-colors">Formación de Cuadros Docentes</Link></li>
+                            <li><Link to="/servicios" className="hover:text-accent-400 transition-colors">Diagnóstico e Inspección</Link></li>
+                            <li><Link to="/cursos" className="hover:text-accent-400 transition-colors">Catálogo de Cursos</Link></li>
                         </ul>
                     </div>
 

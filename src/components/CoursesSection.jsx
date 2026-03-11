@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GraduationCap, ClipboardCheck, FlaskConical, FileText, Building2, CalendarRange, SearchCheck, BookOpenCheck, ChevronRight } from 'lucide-react';
 
 const courses = [
@@ -99,8 +100,8 @@ export default function CoursesSection() {
 
                             {/* Icon */}
                             <div className={`p-3 rounded-lg inline-flex self-start mb-4 transition-colors duration-300 ${hoveredId === course.id
-                                    ? 'bg-blue-600 text-white'
-                                    : 'bg-slate-100 text-blue-700'
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-slate-100 text-blue-700'
                                 }`}>
                                 {course.icon}
                             </div>
@@ -115,10 +116,10 @@ export default function CoursesSection() {
 
                             {/* CTA */}
                             <div className="mt-4 pt-4 border-t border-slate-100">
-                                <a href="#contacto" className="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center group/link">
+                                <Link to="/contacto" className="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center group/link">
                                     Solicitar información
                                     <ChevronRight className="h-4 w-4 ml-1 group-hover/link:translate-x-1 transition-transform" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}
