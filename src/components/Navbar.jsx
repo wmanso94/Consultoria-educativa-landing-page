@@ -24,8 +24,8 @@ export default function Navbar() {
 
     return (
         <nav className={`sticky top-0 z-50 transition-all duration-500 ${isScrolled
-                ? 'bg-white/98 shadow-lg shadow-slate-900/5 backdrop-blur-md border-b border-slate-200/80'
-                : 'bg-white/80 backdrop-blur-sm border-b border-transparent'
+            ? 'bg-white/98 shadow-lg shadow-slate-900/5 backdrop-blur-md border-b border-slate-200/80'
+            : 'bg-white/80 backdrop-blur-sm border-b border-transparent'
             }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
@@ -45,6 +45,7 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center space-x-8">
                         <a href="#soluciones" onClick={(e) => handleNavClick(e, '#soluciones')} className="text-slate-600 hover:text-slate-900 font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-accent-500 after:transition-all hover:after:w-full">Soluciones</a>
                         <a href="#servicios" onClick={(e) => handleNavClick(e, '#servicios')} className="text-slate-600 hover:text-slate-900 font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-accent-500 after:transition-all hover:after:w-full">Servicios</a>
+                        <a href="#cursos" onClick={(e) => handleNavClick(e, '#cursos')} className="text-slate-600 hover:text-slate-900 font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-accent-500 after:transition-all hover:after:w-full">Cursos</a>
                         <a href="#trayectoria" onClick={(e) => handleNavClick(e, '#trayectoria')} className="text-slate-600 hover:text-slate-900 font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-accent-500 after:transition-all hover:after:w-full">Trayectoria</a>
                         <a
                             href="#contacto"
@@ -74,6 +75,7 @@ export default function Navbar() {
                     <div className="px-4 pt-2 pb-6 space-y-1">
                         <a href="#soluciones" onClick={(e) => handleNavClick(e, '#soluciones')} className="block px-4 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-slate-900 rounded-lg transition-colors">Soluciones</a>
                         <a href="#servicios" onClick={(e) => handleNavClick(e, '#servicios')} className="block px-4 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-slate-900 rounded-lg transition-colors">Servicios</a>
+                        <a href="#cursos" onClick={(e) => handleNavClick(e, '#cursos')} className="block px-4 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-slate-900 rounded-lg transition-colors">Cursos</a>
                         <a href="#trayectoria" onClick={(e) => handleNavClick(e, '#trayectoria')} className="block px-4 py-3 text-slate-600 font-medium hover:bg-slate-50 hover:text-slate-900 rounded-lg transition-colors">Trayectoria</a>
                         <a href="#contacto" onClick={(e) => handleNavClick(e, '#contacto')} className="block w-full text-center mt-4 px-5 py-3 bg-gradient-to-r from-accent-500 to-accent-600 text-white font-semibold rounded-lg shadow-md">
                             Diagnóstico Gratuito

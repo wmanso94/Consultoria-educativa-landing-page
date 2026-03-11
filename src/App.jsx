@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProblemsSection from './components/ProblemsSection';
 import SolutionsSection from './components/SolutionsSection';
+import CoursesSection from './components/CoursesSection';
 import AuthoritySection from './components/AuthoritySection';
 import ProcessSection from './components/ProcessSection';
 import CTASection from './components/CTASection';
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <ProblemsSection />
         <SolutionsSection />
+        <CoursesSection />
         <AuthoritySection />
         <ProcessSection />
         <CTASection />
