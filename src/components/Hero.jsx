@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import useCountUp from '../hooks/useCountUp';
 
@@ -56,19 +57,19 @@ export default function Hero() {
                         </p>
 
                         <div className={`flex flex-col sm:flex-row gap-4 pt-2 transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                            <a
-                                href="#contacto"
+                            <Link
+                                to="/contacto"
                                 className="inline-flex justify-center items-center px-8 py-4 bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-400 hover:to-accent-500 text-white font-semibold rounded-xl shadow-lg shadow-accent-500/20 hover:shadow-accent-500/30 hover:shadow-xl transition-all text-lg group hover:-translate-y-0.5 active:translate-y-0"
                             >
                                 Agende Diagnóstico (15 min)
                                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                            </a>
-                            <a
-                                href="#trayectoria"
+                            </Link>
+                            <Link
+                                to="/trayectoria"
                                 className="inline-flex justify-center items-center px-8 py-4 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 text-white font-semibold rounded-xl transition-all text-lg backdrop-blur-sm"
                             >
                                 Ver Trayectoria
-                            </a>
+                            </Link>
                         </div>
 
                         <div className={`pt-8 border-t border-white/10 flex items-center gap-8 sm:gap-12 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>

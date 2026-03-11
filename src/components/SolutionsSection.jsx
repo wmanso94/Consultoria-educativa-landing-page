@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Lightbulb, FileCheck, BrainCircuit, ArrowRight } from 'lucide-react';
 import useScrollReveal from '../hooks/useScrollReveal';
 
@@ -92,10 +93,10 @@ export default function SolutionsSection() {
                                         </li>
                                     ))}
                                 </ul>
-                                <a href="#contacto" className="inline-flex items-center text-accent-600 hover:text-accent-700 font-semibold group/link mt-2">
+                                <Link to="/contacto" className="inline-flex items-center text-accent-600 hover:text-accent-700 font-semibold group/link mt-2">
                                     Solicitar información
                                     <ArrowRight className="ml-2 h-4 w-4 group-hover/link:translate-x-1 transition-transform" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}
