@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import useScrollReveal from '../hooks/useScrollReveal';
 
@@ -23,13 +24,13 @@ export default function CTASection() {
                 </p>
 
                 <div className="reveal fade-up delay-200 flex flex-col sm:flex-row justify-center gap-4">
-                    <a
-                        href="mailto:jtoledo2w@gmail.com?subject=Solicitud de Diagnóstico Gratuito"
+                    <Link
+                        to="/contacto"
                         className="inline-flex justify-center items-center px-8 py-4 bg-gradient-to-r from-accent-500 to-accent-600 text-white font-bold rounded-xl shadow-lg shadow-accent-500/20 hover:shadow-accent-500/30 hover:shadow-xl transition-all text-lg hover:-translate-y-0.5 active:translate-y-0 group"
                     >
                         Solicitar Diagnóstico (15 min)
                         <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </a>
+                    </Link>
                     <a
                         href="https://wa.me/529987627240?text=Hola%2C%20me%20interesa%20saber%20más%20sobre%20sus%20servicios%20de%20consultoría%20educativa."
                         target="_blank"
