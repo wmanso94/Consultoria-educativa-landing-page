@@ -5,23 +5,23 @@ import useScrollReveal from '../hooks/useScrollReveal';
 const problems = [
     {
         icon: <Settings2 className="h-7 w-7 text-amber-600" />,
-        title: "Desorganización académica y operativa",
-        description: "Procesos poco claros, falta de seguimiento y una operación que depende demasiado de improvisación.",
+        title: "Operación desorganizada",
+        description: "Procesos sin documentar, responsables poco claros y decisiones que dependen de la urgencia del momento, no de un plan.",
     },
     {
         icon: <Users className="h-7 w-7 text-amber-600" />,
-        title: "Necesidad de fortalecer al equipo docente y directivo",
-        description: "Capacitación insuficiente, liderazgo desigual y falta de acompañamiento efectivo.",
+        title: "Equipos sin acompañamiento real",
+        description: "Docentes que necesitan herramientas, coordinadores sin estructura y directivos resolviendo todo solos.",
     },
     {
         icon: <BarChart3 className="h-7 w-7 text-amber-600" />,
-        title: "Falta de evaluación y mejora continua",
-        description: "Instituciones que trabajan mucho, pero sin indicadores claros ni mecanismos sólidos de seguimiento.",
+        title: "Trabajo sin indicadores",
+        description: "La institución se esfuerza, pero no sabe si mejora. Sin datos, no hay manera de medir ni de corregir a tiempo.",
     },
     {
         icon: <AlertTriangle className="h-7 w-7 text-amber-600" />,
-        title: "Procesos que frenan la calidad educativa",
-        description: "Cuando los procedimientos no están bien definidos, la calidad académica termina pagando la factura.",
+        title: "Calidad académica estancada",
+        description: "Procedimientos mal definidos que terminan afectando lo más importante: la calidad de lo que pasa en el aula.",
     }
 ];
 
@@ -30,17 +30,14 @@ export default function ProblemsSection() {
 
     return (
         <section className="py-28 md:py-32 bg-slate-50 relative overflow-hidden" ref={sectionRef}>
-            {/* Subtle background decoration */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-amber-50 rounded-full filter blur-[120px] opacity-60"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <div className="max-w-2xl mb-16">
-                    <h2 className="reveal fade-up text-3xl md:text-4xl font-bold text-slate-900 font-display leading-tight">
-                        ¿Qué problemas ayudamos a resolver?
+                    <span className="reveal fade-up inline-block text-amber-600 font-semibold tracking-wider text-sm uppercase mb-3">¿Te suena familiar?</span>
+                    <h2 className="reveal fade-up delay-100 text-3xl md:text-4xl font-bold text-slate-900 font-display leading-tight">
+                        Problemas que vemos en la mayoría de instituciones que nos contactan
                     </h2>
-                    <p className="reveal fade-up delay-100 text-lg text-slate-600 leading-relaxed mt-5">
-                        Muchas instituciones educativas enfrentan retos que afectan su operación, desempeño académico y capacidad de mejora. Nuestra consultoría ayuda a identificar esas áreas críticas y convertirlas en un plan de acción claro.
-                    </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

@@ -18,27 +18,31 @@ export default function Hero() {
 
     return (
         <section className="relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 overflow-hidden min-h-[92vh] flex items-center">
-            {/* Background Pattern */}
+            {/* Background */}
             <div className="absolute inset-0">
                 <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
                 <div className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-accent-500/10 rounded-full filter blur-[120px]"></div>
                 <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] bg-blue-500/8 rounded-full filter blur-[100px]"></div>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-slate-800/50 rounded-full filter blur-[80px]"></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full py-24 md:py-32">
                 <div className="max-w-3xl">
 
-                    {/* Title */}
-                    <h1 className={`text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-white leading-[1.12] font-display transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                        Consultoría educativa para fortalecer la{' '}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-500">calidad académica</span>{' '}
-                        y la gestión institucional
+                    {/* Kicker — quién eres y para quién */}
+                    <div className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+                        <span className="text-accent-400 text-sm font-semibold tracking-wide uppercase">Consultoría educativa · José Ramón Manso Toledo</span>
+                    </div>
+
+                    {/* H1 — qué haces + para quién + resultado */}
+                    <h1 className={`text-4xl md:text-5xl lg:text-[3.4rem] font-bold text-white leading-[1.12] font-display mt-5 transition-all duration-700 delay-100 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                        Ayudamos a colegios a{' '}
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-accent-500">ordenar su operación</span>,{' '}
+                        fortalecer equipos y mejorar resultados académicos
                     </h1>
 
-                    {/* Subtitle */}
-                    <p className={`text-lg md:text-xl text-slate-300/90 max-w-2xl leading-relaxed mt-8 transition-all duration-700 delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                        Ayudamos a colegios e instituciones educativas a optimizar sus procesos académicos, capacitar a sus equipos docentes y directivos, y mejorar su organización para lograr resultados sostenibles.
+                    {/* Subtítulo — cómo lo haces, sin adornos */}
+                    <p className={`text-lg md:text-xl text-slate-300/90 max-w-2xl leading-relaxed mt-7 transition-all duration-700 delay-200 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                        Diagnóstico, capacitación docente y directiva, y acompañamiento estratégico para instituciones que quieren dejar de improvisar y empezar a mejorar con método.
                     </p>
 
                     {/* CTAs */}
@@ -61,13 +65,8 @@ export default function Hero() {
                         </a>
                     </div>
 
-                    {/* Support text */}
-                    <p className={`text-sm text-slate-400 mt-8 max-w-xl leading-relaxed transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-                        Más de 40 años de experiencia en liderazgo educativo, supervisión académica, formación docente y mejora continua.
-                    </p>
-
-                    {/* Badges */}
-                    <div className={`flex flex-wrap gap-3 mt-8 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
+                    {/* Badges de autoridad */}
+                    <div className={`flex flex-wrap gap-3 mt-10 pt-8 border-t border-white/10 transition-all duration-700 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
                         {badges.map((badge, i) => (
                             <div
                                 key={i}

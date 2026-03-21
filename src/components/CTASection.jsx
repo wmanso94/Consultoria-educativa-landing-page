@@ -1,5 +1,6 @@
 import React from 'react';
-import { Phone, MessageCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Phone, MessageCircle, ArrowRight } from 'lucide-react';
 import useScrollReveal from '../hooks/useScrollReveal';
 
 export default function CTASection() {
@@ -7,7 +8,6 @@ export default function CTASection() {
 
     return (
         <section id="contacto" className="py-28 md:py-32 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 relative overflow-hidden" ref={sectionRef}>
-            {/* Background effects */}
             <div className="absolute inset-0">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-500/8 rounded-full filter blur-[120px]"></div>
                 <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.01)_1px,transparent_1px)] bg-[size:48px_48px]"></div>
@@ -16,10 +16,10 @@ export default function CTASection() {
             <div className="max-w-4xl mx-auto px-4 relative z-10">
                 <div className="max-w-2xl">
                     <h2 className="reveal fade-up text-3xl md:text-5xl font-bold text-white font-display leading-tight">
-                        Conversemos sobre las necesidades de tu institución
+                        El primer paso es una conversación
                     </h2>
                     <p className="reveal fade-up delay-100 text-lg md:text-xl text-slate-300 mt-6 leading-relaxed">
-                        Si tu colegio o institución educativa busca fortalecer su organización, mejorar su operación académica o capacitar a su equipo, podemos ayudarte.
+                        Cuéntanos qué necesita tu institución. Sin compromiso, sin formularios largos. Solo una llamada para entender si podemos ayudarte.
                     </p>
                 </div>
 
