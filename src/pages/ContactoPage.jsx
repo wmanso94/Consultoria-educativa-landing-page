@@ -8,15 +8,15 @@ const contactMethods = [
   {
     icon: <Mail className="h-5 w-5" />,
     title: "Correo Electrónico",
-    value: "jtoledo2w@gmail.com",
-    href: "mailto:jtoledo2w@gmail.com",
+    value: "contacto@educationalconsultingmx.com",
+    href: "mailto:contacto@educationalconsultingmx.com",
     color: "bg-blue-100 text-blue-600",
   },
   {
     icon: <MessageCircle className="h-5 w-5" />,
     title: "WhatsApp",
     value: "+52 (998) 762 7240",
-    href: "https://wa.me/529987627240?text=Hola,%20me%20interesa%20agendar%20un%20diagnóstico%20educativo%20gratuito.",
+    href: "https://wa.me/529987627240?text=Hola%2C%20me%20gustaría%20agendar%20una%20llamada%20para%20hablar%20sobre%20consultoría%20educativa.",
     color: "bg-emerald-100 text-emerald-600",
   },
   {
@@ -45,9 +45,9 @@ export default function ContactoPage() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <span className="text-accent-400 font-semibold tracking-wider text-sm uppercase">Contacto</span>
-          <h1 className="text-4xl md:text-5xl font-bold mt-3 font-display">Agende su Diagnóstico Gratuito</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mt-3 font-display">Solicite su diagnóstico inicial</h1>
           <p className="text-lg text-slate-300 mt-4 max-w-2xl mx-auto">
-            Complete el formulario y le contactaremos para evaluar cómo podemos transformar su institución educativa.
+            Complete el formulario y le contactaremos para entender las necesidades de su institución.
           </p>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function ContactoPage() {
 
               {/* Quick Trust Badges */}
               <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 text-white">
-                <h3 className="text-lg font-bold mb-4">¿Por qué agendar su diagnóstico?</h3>
+                <h3 className="text-lg font-bold mb-4">¿Por qué solicitar un diagnóstico?</h3>
                 <ul className="space-y-3 text-sm text-slate-300">
                   <li className="flex items-start gap-2">
                     <span className="text-accent-400 font-bold mt-0.5">✓</span>

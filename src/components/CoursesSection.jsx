@@ -117,7 +117,7 @@ export default function CoursesSection() {
                             {/* CTA */}
                             <div className="mt-4 pt-4 border-t border-slate-100">
                                 <Link to="/contacto" className="text-sm font-semibold text-blue-600 hover:text-blue-800 inline-flex items-center group/link">
-                                    Solicitar información
+                                    Solicitar diagnóstico inicial
                                     <ChevronRight className="h-4 w-4 ml-1 group-hover/link:translate-x-1 transition-transform" />
                                 </Link>
                             </div>

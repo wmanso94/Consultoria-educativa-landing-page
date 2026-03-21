@@ -6,8 +6,8 @@ const steps = [
     {
         step: '01',
         icon: <PhoneCall className="h-6 w-6 text-white" />,
-        title: 'Diagnóstico Gratuito',
-        description: 'Conversación de 15 minutos para entender sus retos de capacitación y determinar si podemos ayudarle.',
+        title: 'Conversación inicial',
+        description: 'Entendemos su situación, sus retos y lo que espera. Sin compromiso.',
     },
     {
         step: '02',

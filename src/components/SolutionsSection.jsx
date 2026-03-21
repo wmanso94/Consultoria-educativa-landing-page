@@ -94,7 +94,7 @@ export default function SolutionsSection() {
                                     ))}
                                 </ul>
                                 <Link to="/contacto" className="inline-flex items-center text-accent-600 hover:text-accent-700 font-semibold group/link mt-2">
-                                    Solicitar información
+                                    Solicitar diagnóstico inicial
                                     <ArrowRight className="ml-2 h-4 w-4 group-hover/link:translate-x-1 transition-transform" />
                                 </Link>
                             </div>

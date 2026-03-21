@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 import { Send, CheckCircle, AlertCircle, User, Mail, Phone, Building2, MessageSquare, ChevronDown } from 'lucide-react';
 
 const serviceOptions = [
-  'Formación de Cuadros Docentes',
-  'Diagnóstico e Inspección Metodológica',
-  'Certificación y Constancias DC-3',
-  'Cursos de Capacitación',
-  'Auditoría Pedagógica',
-  'Consultoría Estratégica Educativa',
+  'Diagnóstico institucional',
+  'Capacitación docente y directiva',
+  'Optimización de procesos académicos',
+  'Acompañamiento estratégico',
   'Otro',
 ];
 
@@ -32,7 +30,7 @@ export default function ContactForm() {
     setStatus('sending');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/jtoledo2w@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/contacto@educationalconsultingmx.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +67,7 @@ export default function ContactForm() {
         </div>
         <h3 className="text-2xl font-bold text-slate-900 mb-2 font-display">¡Mensaje Enviado!</h3>
         <p className="text-slate-500 mb-6 max-w-sm mx-auto">
-          Gracias por su interés. Le contactaremos en las próximas 24 horas para agendar su diagnóstico gratuito.
+          Gracias por su interés. Le contactaremos en las próximas 24 horas para conversar sobre su caso.
         </p>
         <button
           onClick={() => setStatus('idle')}
@@ -88,7 +86,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-slate-200 shadow-xl shadow-slate-900/5 p-8 md:p-10">
       <div className="mb-8">
-        <h3 className="text-2xl font-bold text-slate-900 font-display">Agende su Diagnóstico Gratuito</h3>
+        <h3 className="text-2xl font-bold text-slate-900 font-display">Solicite su diagnóstico inicial</h3>
         <p className="text-slate-500 mt-1.5 text-sm">Complete el formulario y le contactaremos en menos de 24 horas.</p>
       </div>
 
@@ -238,7 +236,7 @@ export default function ContactForm() {
           </>
         ) : (
           <>
-            Solicitar Diagnóstico Gratuito
+            Solicitar diagnóstico inicial
             <Send className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </>
         )}
