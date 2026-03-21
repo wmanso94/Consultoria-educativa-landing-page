@@ -8,8 +8,8 @@ const contactMethods = [
   {
     icon: <Mail className="h-5 w-5" />,
     title: "Correo Electrónico",
-    value: "contacto@educationalconsultingmx.com",
-    href: "mailto:contacto@educationalconsultingmx.com",
+    value: "consultas@educationalconsultingmx.com",
+    href: "mailto:consultas@educationalconsultingmx.com",
     color: "bg-blue-100 text-blue-600",
   },
   {

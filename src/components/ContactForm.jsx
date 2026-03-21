@@ -30,7 +30,7 @@ export default function ContactForm() {
     setStatus('sending');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/contacto@educationalconsultingmx.com', {
+      const response = await fetch('https://formsubmit.co/ajax/consultas@educationalconsultingmx.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ export default function ContactForm() {
       } else {
         setStatus('error');
       }
-    } catch (err) {
+    } catch {
       setStatus('error');
     }
   };

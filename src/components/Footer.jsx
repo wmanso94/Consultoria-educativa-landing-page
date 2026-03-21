@@ -61,9 +61,9 @@ export default function Footer() {
                                 Aguascalientes, Ags. México
                             </li>
                             <li>
-                                <a href="mailto:contacto@educationalconsultingmx.com" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
+                                <a href="mailto:consultas@educationalconsultingmx.com" className="flex items-center gap-2 hover:text-accent-400 transition-colors">
                                     <Mail className="w-4 h-4 text-slate-600 flex-shrink-0" />
-                                    contacto@educationalconsultingmx.com
+                                    consultas@educationalconsultingmx.com
                                 </a>
                             </li>
                             <li>
